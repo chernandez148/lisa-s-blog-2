@@ -1,0 +1,17 @@
+div.article {
+	background: none;
+}
+
+.inner-content img {
+    opacity: .9;
+    padding-bottom: 0; 
+}
+
+.inner-content img:hover {
+    opacity: 1;
+	cursor: pointer; 
+}
+
+.about-me {
+    padding: 0px 10px 150px 10px;
+}

@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #2f2f2f;
+	font-family: 'Cabin', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #5a5a5a !important;
+}
+
+a:hover {
+	color: cadetblue !important;
+}
+
+p {
+	color: white;
+}
+
+.wrapper {
+	background: #f4f4f4;
+	margin: 0 auto;
+	width: 1173px;
+}
+
+p.contact-info {
+	top: 0;
+	position: absolute;
+	margin: 12px;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	opacity: .5;
+}
+
+.fa {
+	padding: 0 15px;
+	opacity: .5;
+}
+
+.fa:hover {
+	opacity: 1;
+}
+
+div.follow-info {
+    top: 0;
+    right: 60px;
+    position: absolute;
+    padding: 10px;	
+}
+
+form {
+	float: right;
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #c2c2c2;
+    padding: 5px;
+    width: 300px;
+    text-align: right;	
+}
+
+.bg-image img {
+	width: 1173px;
+}
+
+.navbar {
+	text-align: center;
+	margin-top: -75px;
+	margin-bottom: 50px;
+}
+
+.navbar a {
+	padding: 0 20px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.slideshow img {
+	width: 100%;
+}
+
+.about-me {
+	width: 270px;
+	float: right;
+	background: cadetblue;
+	padding: 0 10px 148px 10px;
+}
+
+.about-me img {
+	border-top: 1px solid black;
+	border-image: radial-gradient(rgb(95, 158, 160), rgb(255, 255, 255), rgb(95, 158, 160)) 1;
+}
+
+.about-me .cover-photo {
+	width: 270px;
+	margin-top: -200px;
+	position: relative;
+}
+
+.about-me h1 {
+	padding: 0 15px;
+	margin: 0;
+	font-size: 40px;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	color: white;
+}
+
+.about-me h2 {
+	color: white;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 4px;
+	margin: 80px 0 20px 0;
+}
+
+.about-me .yt-channel {
+	text-align: center;
+	color: white;
+	padding: 0 15px;
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border: none;
+}
+
+.about-me p {
+	padding: 15px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	border-image: radial-gradient(rgb(95, 158, 160), rgb(255, 255, 255), rgb(95, 158, 160)) 1;
+}
+
+.side-info p {
+	border: none;
+	text-align: left;
+	padding-bottom: 15px;
+	font-size: 14px;
+}
+
+.side-info a {
+	color: white !important;
+	border-image: radial-gradient(rgb(95, 158, 160), rgb(255, 255, 255), rgb(95, 158, 160)) 1;
+}
+
+.side-info h3 {
+	text-align: left;
+	color: white;
+	font-weight: normal;
+	margin-left: 15px;
+}
+
+.inner-content {
+	width: 903px;
+}
+
+.inner-content p {
+	color: #919191;
+	font-size: 14px;
+	line-height: 2rem;
+	text-align: left;
+	padding: 20px 35px;
+}
+
+.date p {
+	text-align: center;
+	padding: 30px 0;
+	color: #919191;
+}
+
+.title h3 {
+	text-align: center;
+	color: cadetblue;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.hashtag p {
+	text-align: center;
+	padding: 30px 0;
+}
+
+.hashtag a {
+	padding: 0 10px;
+	color: #919191 !important;
+}
+
+.hashtag a:hover {
+	color: cadetblue !important;
+}
+
+.inner-content img {
+	display: block;
+	margin: 0 auto;
+}
+
+button {
+	display: block;
+	margin: 0 auto 30px !important;
+	background: black;
+	padding: 20px 60px;
+	border: none;
+	color: white;
+}
+
+.border {
+	margin: 0 45px;
+	color: black;
+}
+
+.pages {
+	padding: 10px;
+}
+
+.pages a {
+	font-size: 12px;
+	padding: 10px;
+	background: #f9f9f9;
+	margin: 5px;
+	color: black;
+}
+
+.pages a:hover {
+	background: black;
+	color: white !important;
+}
+
+.pages a.active {
+	background: black;
+	color: white !important;
+}
+
+.footer {
+	background: #919191;
+	margin-top: 20px;
+}
+
+.footer p {
+	color: white;
+	padding: 10px;
+	font-size: 12px;
+}

@@ -1,0 +1,45 @@
+h2 {
+    border-bottom: 1px solid cadetblue;
+    color: cadetblue;
+    margin: 0 10px 10px 10px;
+    padding: 10px 5px;
+    border-image: radial-gradient(rgb(255, 255, 255), rgb(95, 158, 160)) 1;
+}
+
+.about-me {
+    padding: 0px 10px 342px 10px;
+}
+
+.inner-content {
+	width: 883px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.inner-content img {
+	width: 278px;
+    padding-bottom: 20px;
+}
+
+div.article {
+    width: 278px;
+    background: white;
+    margin: 10px;
+    display: inline-block;	
+}	
+
+.article a {
+    padding: 8px;
+	font-size: 21px;
+	font-weight: 600;
+}
+
+.article a:hover {
+	text-decoration: underline;
+}
+
+.article p {
+    padding: 0px 10px;	
+	font-size: 12px;
+}
+

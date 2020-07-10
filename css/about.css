@@ -1,0 +1,23 @@
+.inner-content {
+	width: 883px;
+	display: grid;
+	padding-bottom: 890px;	
+	grid-template-columns: 1fr 1fr !important;
+}
+
+.inner-content p {
+	padding-left: 0;
+}
+
+.inner-content a {
+	text-align: right;
+}
+
+.about {
+	padding: 10px;
+}
+
+.follow-about {
+	text-align: right;
+	margin-right: 15px;
+}
